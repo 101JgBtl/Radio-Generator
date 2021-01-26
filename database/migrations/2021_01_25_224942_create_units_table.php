@@ -15,7 +15,7 @@ class CreateUnitsTable extends Migration
     {
         Schema::create('units', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('frequency_id')->references('id')->on('frequency')->cascadeOnDelete()->cascadeOnUpdate();
+            $table->foreignId('frequency_id')->references('id')->on('frequencies')->cascadeOnDelete()->cascadeOnUpdate();
             $table->string('callsign');
             $table->enum('radio_type', ['short_range', 'long_range']);
             $table->decimal('alpha',     5, 1);
