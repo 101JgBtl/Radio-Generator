@@ -1,18 +1,6 @@
 @extends('layout.app')
 
 @section('content')
-    <div class="text-center">
-
-        <img src="{{ asset('img/logo.png') }}" alt="" width="20%">
-
-        <h3>Generate Frequencies</h3>
-        <small>by 101. Jägerbattalion</small>
-
-        <p>
-            Have you ever played a TvT-Event and the enemy know your frequency because he captured one of your radios? Yes, this happened to me too. So i wrote this small tool for my clan, which generates a radio table, that can be easily shared via the link.
-        </p>
-    </div>
-
     <div class="panel">
         <ul class="list">
             <li>
@@ -37,11 +25,6 @@
             </li>
         </ul>
     </div>
-
-
-
-
-
 
     <form action="{{ route('store') }}" method="post">
         @csrf
