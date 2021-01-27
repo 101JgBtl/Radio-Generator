@@ -34,7 +34,7 @@
         <small>by 101. Jägerbattalion</small>
 
         <p>
-            Have you ever played a TvT-Event and the enemy know your frequency because he captured one of your radios? Yes, this happened to me too. So i wrote this small tool for my clan, which generates a radio table, that can be easily shared via the link.
+            Have you ever played a TvT-Event and the enemy knew your frequency because he captured one of your radios? Yes, this happened to me too. So i wrote this small tool for my clan, which generates a radio table, that can be easily shared via the link.
         </p>
     </div>
     <div class="container">
