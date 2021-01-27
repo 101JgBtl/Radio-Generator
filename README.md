@@ -5,8 +5,9 @@ Radio Frequencies is a small project for ArmA 3 TvT Events. The idea behind this
 ## Installation
 - Step 1: Clone the repo
 - Step 2: Copy .env.example to .env and enter database informations
-- Step 3: ```php artisan migrate``` to create the Database
-- Step 4: ```npm i && npm run prod ``` to install npm dependecys and generate css & js files
+- Step 3: ```composer install``` to install php dependencies
+- Step 4: ```php artisan migrate``` to create the Database
+- Step 5: ```npm i && npm run prod ``` to install npm dependecys and generate css & js files
 
 ## Requirements
 - Database Server (e.g. MySQL, we use MySQL 8)
