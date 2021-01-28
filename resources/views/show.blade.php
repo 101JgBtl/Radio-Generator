@@ -1,8 +1,15 @@
 @extends('layout.app')
 
 @section('content')
-    <h3>Frequencies</h3>
 
+
+    <div class="row justify-content-center">
+        <div class="mx-auto">
+            {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(300)->errorCorrection('H')->generate(route('show', $frequency)) !!}
+        </div>
+    </div>
+
+    <h3>Frequencies</h3>
     <table class="table table-sm table-hover">
         <thead>
         <tr>

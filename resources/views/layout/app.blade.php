@@ -26,24 +26,29 @@
     <meta itemprop=description content="Small tool to generate Frequency tables for TvT events. Easy to generate, easy to share">
 </head>
 <body>
-<main role="main" class="container">
-    <div class="text-center">
-        <img src="{{ asset('img/logo.png') }}" alt="" width="20%">
+<main role="main">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-sm-11">
+            <div class="text-center">
+                <img src="{{ asset('img/logo.png') }}" alt="" width="15%">
 
-        <h3>Generate Frequencies</h3>
-        <small>by 101. Jägerbattalion</small>
+                <h3>Generate Frequencies</h3>
+                <small>by 101. Jägerbattalion</small>
+                <p>
+                    Have you ever played a TvT-Event and the enemy knew your frequency because he captured one of your radios? Yes, this happened to me too. So i wrote this small tool for my clan, which generates a radio table, that can be easily shared via the link.
+                </p>
 
-        <p>
-            Have you ever played a TvT-Event and the enemy knew your frequency because he captured one of your radios? Yes, this happened to me too. So i wrote this small tool for my clan, which generates a radio table, that can be easily shared via the link.
-        </p>
-    </div>
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col">
-                @yield('content')
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    @yield('content')
+                </div>
             </div>
         </div>
     </div>
+
+
+
 </main>
 
 

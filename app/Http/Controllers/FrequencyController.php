@@ -96,8 +96,9 @@ class FrequencyController extends Controller
         $units = $frequency->units->map(fn($el) => $el->callsign);
 
         return view('show')->with([
-            'frequencies' => $frequencies,
-            'units' => $units
+            'frequency'     => $frequency,
+            'frequencies'   => $frequencies,
+            'units'         => $units
         ]);
     }
 }
